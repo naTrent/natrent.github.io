@@ -36,4 +36,6 @@ feed:
 paginate: 10
 paginate_path: /page:num/
 
+# Google Analytics
+google_analytics: UA-148161437-1
 
