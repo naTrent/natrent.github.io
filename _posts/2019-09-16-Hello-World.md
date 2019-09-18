@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Hello World! Welcome in Test Cube Center blog!"
+title: "Hello World!"
 ---
 
-## Hello World ヽ(^o^)丿
+## ヽ(^o^)丿
 
 _This is my first blog post. Mostly created to test if all things here on Github Pages with Jekyll theme works correctly._
 
