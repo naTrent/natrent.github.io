@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: posts
 title: "Home"
 paginate: true  # enables pagination loop, see section above for additional setup
 ---
