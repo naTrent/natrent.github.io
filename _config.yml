@@ -1,2 +1,39 @@
+lang: en-US
+title: Testing Cube Center
+email: testcube101@gmail.com
+description: "Simple blog about my journey with testing ang Quality Assurance"
+author:
+  name: Mikołaj Staniewski
+  twitter: Mikstan1
+  picture: https://api.adorable.io/avatars/285/miki@adorable.io.png
+twitter_username: Mikstan1
+github_username: natrent
+search: true
+search_full_content: true
+search_provider: algolia
+algolia:
+  application_id: QB6HVGBSBA
+  index_name: basically-basic
+  search_only_api_key: 9d5014e5bbc77372547bce778dfa5663
+
+# Liquid
+liquid:
+  error_mode: strict
+
+# Build settings
+markdown: kramdown
 gem "github-pages", group: :jekyll_plugins
 remote_theme: "mmistakes/jekyll-theme-basically-basic"
+plugins: # previously gems
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
+
+
