@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hellow World! Welcom to TEST Cube blog"
+title: "Hello World! Welcome in Test Cube Center blog!"
 ---
 
 ## Hello World ヽ(^o^)丿
