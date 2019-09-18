@@ -3,7 +3,7 @@ layout: post
 title: "Hello World!"
 alt_title: "Hello World!"
 read_time: true
-image: /assets/cube.png
+page.image.thumbnail: /assets/cube.png
 ---
 
 ## ヽ(^o^)丿
