@@ -9,8 +9,7 @@
 #
 remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
-#remote_theme: "mmistakes/minimal-mistakes@4.16.6"
-#minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+
 
 # Site Settings
 locale                   : "en-US"
@@ -28,12 +27,14 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 
+
 # Analytics
 analytics:
   provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-148161437-1"
     anonymize_ip         : # true, false (default)
+
 
 # Site Author
 author:
@@ -62,6 +63,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
+
 # Site Footer
 footer:
   links:
@@ -83,6 +85,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+
 
 # Reading Files
 include:
@@ -120,6 +123,7 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+
 # Conversion
 markdown: kramdown
 highlighter: rouge
@@ -139,6 +143,18 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 ## Author Information
@@ -199,8 +215,8 @@ defaults:
 ##  teaser: /assets/images/teaser.jpg
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
-paginate_path: /page:num/
+#paginate: 10
+#paginate_path: /page:num/
 
 # Google Analytics
 google_analytics: UA-148161437-1
