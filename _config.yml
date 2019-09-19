@@ -48,11 +48,11 @@ plugins: # previously gems
 feed:
   path: atom.xml
 
-#defaults:
-#  _posts
-#  - scope:
-#      path: ""
-#      type: posts
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
 #    values:
 #      layout: single
 #        author_profile: true
