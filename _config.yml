@@ -157,6 +157,22 @@ paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
 ## Author Information
 #author:
 #  name: naTrent
@@ -187,12 +203,12 @@ gem "github-pages", group: :jekyll_plugins
 ##remote_theme: "mmistakes/jekyll-theme-basically-basic"
 
 breadcrumbs: true  # disabled by default
-plugins: # previously gems
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-include-cache
+#plugins: # previously gems
+#  - jekyll-feed
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
+#  - jekyll-paginate
+#  - jekyll-include-cache
 feed:
   path: atom.xml
 
