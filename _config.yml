@@ -181,6 +181,21 @@ compress_html:
   ignore:
     envs: development
 
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+
 ## Author Information
 #author:
 #  name: naTrent
@@ -220,19 +235,19 @@ breadcrumbs: true  # disabled by default
 feed:
   path: atom.xml
 
-# Posts configuration
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-#        comments: true
-      share: true
-      related: true
+## Posts configuration
+#defaults:
+#  # _posts
+#  - scope:
+#      path: ""
+#      type: posts
+#    values:
+#      layout: single
+#      author_profile: true
+#      read_time: true
+##        comments: true
+#      share: true
+#      related: true
 # Page Images
 
 ##header:
@@ -243,5 +258,5 @@ defaults:
 #paginate_path: /page:num/
 
 # Google Analytics
-google_analytics: UA-148161437-1
+#google_analytics: UA-148161437-1
 
