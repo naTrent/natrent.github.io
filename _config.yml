@@ -14,6 +14,8 @@ author:
   picture: https://api.adorable.io/avatars/285/miki@adorable.io.png
 twitter_username: Mikstan1
 github_username: natrent
+
+# Search Engine
 search: true
 search_full_content: true
 search_provider: algolia
@@ -26,15 +28,17 @@ algolia:
 liquid:
   error_mode: strict
 
-# Build settings
+# Build theme settings
 markdown: kramdown
 gem "github-pages", group: :jekyll_plugins
-remote_theme: "mmistakes/jekyll-theme-basically-basic"
+##remote_theme: "mmistakes/jekyll-theme-basically-basic"
+remote_theme: "mmistakes/minimal-mistakes@4.16.6"
 plugins: # previously gems
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-include-cache
 feed:
   path: atom.xml
 
