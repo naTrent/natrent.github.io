@@ -1,6 +1,0 @@
-# Theme Skin
-skin: night # default, night, plum, sea, soft, steel
-
-navigation_pages:
-  - about.md
-  - blog.md
