@@ -160,6 +160,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
+gem "github-pages", group: :jekyll_plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -198,16 +199,6 @@ defaults:
       share: true
       related: true
 
-## Author Information
-#author:
-#  name: naTrent
-#  avatar: "https://api.adorable.io/avatars/285/miki@adorable.io.png"
-#  bio: "My awesome biography constrained to a sentence or two goes here."
-#  location: "Warszawa, Poland"
-#  twitter: Mikstan1
-#  github: natrent
-#twitter_username: Mikstan1
-#github_username: natrent
 
 # Search Engine
 search: true
@@ -218,47 +209,13 @@ algolia:
   index_name: basically-basic
   search_only_api_key: 9d5014e5bbc77372547bce778dfa5663
 
+
 # Liquid
 liquid:
   error_mode: strict
-
-# Build theme settings
-#markdown: kramdown
-gem "github-pages", group: :jekyll_plugins
-##remote_theme: "mmistakes/jekyll-theme-basically-basic"
-
 breadcrumbs: true  # disabled by default
-#plugins: # previously gems
-#  - jekyll-feed
-#  - jekyll-seo-tag
-#  - jekyll-sitemap
-#  - jekyll-paginate
-#  - jekyll-include-cache
 feed:
   path: atom.xml
 
-## Posts configuration
-#defaults:
-#  # _posts
-#  - scope:
-#      path: ""
-#      type: posts
-#    values:
-#      layout: single
-#      author_profile: true
-#      read_time: true
-##        comments: true
-#      share: true
-#      related: true
-# Page Images
 
-##header:
-##  teaser: /assets/images/teaser.jpg
-
-# Pagination - https://jekyllrb.com/docs/pagination/
-#paginate: 10
-#paginate_path: /page:num/
-
-# Google Analytics
-#google_analytics: UA-148161437-1
 
