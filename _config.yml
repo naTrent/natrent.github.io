@@ -185,7 +185,7 @@ compress_html:
     envs: development
 
 
-# Defaults
+# Defaults Posts and Pages
 defaults:
   # _posts
   - scope:
