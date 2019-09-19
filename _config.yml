@@ -3,6 +3,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+# Theme Settings
+#
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+#remote_theme: "mmistakes/minimal-mistakes@4.16.6"
+#minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+
+
+
+
+
+
+
 lang: en-US
 title: Testing Cube Center
 email: testcube101@gmail.com
@@ -37,8 +51,7 @@ liquid:
 markdown: kramdown
 gem "github-pages", group: :jekyll_plugins
 ##remote_theme: "mmistakes/jekyll-theme-basically-basic"
-remote_theme: "mmistakes/minimal-mistakes@4.16.6"
-minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+
 breadcrumbs: true  # disabled by default
 plugins: # previously gems
   - jekyll-feed
@@ -62,10 +75,6 @@ defaults:
 #        comments: true
       share: true
       related: true
-
-# Pages configuration
-include: ["_pages"]
-
 # Page Images
 teaser: /assets/images/teaser.jpg
 ##header:
