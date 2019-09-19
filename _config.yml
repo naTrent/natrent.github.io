@@ -43,6 +43,8 @@ author:
   bio              : "My awesome biography constrained to a sentence or two goes here."
   location         : "Warsaw, Poland"
   email            : "testcube101@gmail.com"
+  twitter          : "mikstan1"
+  github           : "natrent"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
