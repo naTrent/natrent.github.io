@@ -173,6 +173,14 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
 ## Author Information
 #author:
 #  name: naTrent
