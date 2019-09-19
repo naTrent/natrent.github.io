@@ -62,7 +62,7 @@ defaults:
 #        related: true
 
 # Page Images
-teaser: /assets/images/500x300.png
+teaser: /assets/images/teaser.jpg
 header:
   teaser: /assets/images/teaser.jpg
 
