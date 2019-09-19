@@ -48,18 +48,18 @@ plugins: # previously gems
 feed:
   path: atom.xml
 
-defaults:
-  _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-        author_profile: true
-        read_time: true
-        comments: true
-        share: true
-        related: true
+#defaults:
+#  _posts
+#  - scope:
+#      path: ""
+#      type: posts
+#    values:
+#      layout: single
+#        author_profile: true
+#        read_time: true
+#        comments: true
+#        share: true
+#        related: true
 
 # Page Images
 teaser: /assets/images/500x300.png
