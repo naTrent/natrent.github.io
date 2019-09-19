@@ -8,10 +8,14 @@ title: Testing Cube Center
 email: testcube101@gmail.com
 description: "Simple blog about my journey with testing ang Quality Assurance"
 # baseurl: "/blog.md"
+
+# Author Information
 author:
   name: naTrent
+  avatar: "https://api.adorable.io/avatars/285/miki@adorable.io.png"
+  bio: "My awesome biography constrained to a sentence or two goes here."
+  location: "Warszawa, Poland"
   twitter: Mikstan1
-  picture: https://api.adorable.io/avatars/285/miki@adorable.io.png
 twitter_username: Mikstan1
 github_username: natrent
 
@@ -50,7 +54,12 @@ defaults:
       path: ""
       type: posts
     values:
-      read_time: true
+      layout: single
+        author_profile: true
+        read_time: true
+        comments: true
+        share: true
+        related: true
 
 # Page Images
 teaser: /assets/images/500x300.png

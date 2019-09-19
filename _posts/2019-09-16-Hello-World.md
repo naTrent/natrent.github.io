@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "Hello World!"
 alt_title: "Hello World!"
-read_time: true
 ---
 
 ## ヽ(^o^)丿
