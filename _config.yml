@@ -24,7 +24,7 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : "/assets/images/teaser.jpg"
 logo                     : "/assets/images/cube.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true, false (default)
 words_per_minute         : 200
 
 
@@ -219,7 +219,6 @@ algolia:
 # Liquid
 liquid:
   error_mode: strict
-breadcrumbs: true  # disabled by default
 feed:
   path: atom.xml
 
