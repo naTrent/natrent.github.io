@@ -23,6 +23,7 @@ It seamed that IntelliJ has already seen them as imported.
 ## Solution
 
 What helped me is that:
+
     1. After removed _.idea_ folder manually form repository, check if in _.gitignore_ file you have added _.idea_ entry in the file.
     2. Clear all project related cache in IDE file structure.
     3. Open IntelliJ
